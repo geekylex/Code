@@ -56,7 +56,7 @@
 		<building>326</building>
 		<room>30</room>
 	</employee>
-	<employee id="be137">
+	<employee id="be135">
 		<firstname>Abhinav</firstname>
 		<lastname>kumar</lastname>
 		<title>COO</title>
@@ -64,18 +64,27 @@
 		<building>216</building>
 		<room>32</room>
 	</employee>
-	<employee id="be138">
+	<employee id="be131">
 		<firstname>DhanPal</firstname>
 		<lastname>Singh</lastname>
 		<title>Engineering Manager</title>
 		<division>Materials</division>
 		<building>327</building>
 		<room>21</room>
-	<employee id="be139">
-		<firstname>Mickey</firstname>
-		<lastname>Mouse</lastname>
-		<title>Resiprator</title>
-		<division>Management</division>
+	</employee>
+	<employee id="be140">
+		<firstname>Goofy</firstname>
+		<lastname>Duck</lastname>
+		<title>Engineering Manager</title>
+		<division>Materials</division>
+		<building>327</building>
+		<room>33</room>
+	</employee>
+	<employee id="be140">
+		<firstname>Randy</firstname>
+		<lastname>Duck</lastname>
+		<title>Engineering Manager</title>
+		<division>Materials</division>
 		<building>327</building>
 		<room>33</room>
 	</employee>
