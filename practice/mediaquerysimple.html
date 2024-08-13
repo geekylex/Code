@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Responsive Layout</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-template-areas:
+                "header"
+                "main"
+                "sidebar"
+                "footer";
+            min-height: 100vh;
+        }
+
+        header {
+            grid-area: header;
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+
+        main {
+            grid-area: main;
+            padding: 1em;
+        }
+
+        aside {
+            grid-area: sidebar;
+            background-color: #f0f0f0;
+            padding: 1em;
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+
+        @media (min-width: 768px) {
+            body {
+                grid-template-columns: 2fr 1fr;
+                grid-template-areas:
+                    "header header"
+                    "main sidebar"
+                    "footer footer";
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Simple Grid Layout</h1>
+    </header>
+    <main>
+        <h2>Main Area</h2>
+        This is the main content area. It will be wider on larger screens.
+    </main>
+    <aside>
+        <h2>Sidebar Area</h2>
+        This is a sidebar. On smaller screens, it will appear below the main content. On larger screens, it will appear to the right of the main area.
+    </aside>
+    <footer>
+        Footer
+    </footer>
+</body>
+</html>
